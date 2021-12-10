@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    margin: 10px 10px;
+    display: inline-block;
+}
